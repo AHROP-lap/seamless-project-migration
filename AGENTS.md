@@ -28,3 +28,5 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+- The site is the original vanilla JS app: scripts/CSS/fonts live in public/, page markup in src/site/body.html, loaded by src/routes/index.tsx. Why: preserves the imported site exactly; edit content in public/js/*.js.

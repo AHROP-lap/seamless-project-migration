@@ -16,7 +16,7 @@ export const Route = createFileRoute("/")({
     ],
     links: [
       { rel: "stylesheet", href: "/css/fonts.css?v=1" },
-      { rel: "stylesheet", href: "/css/style.css?v=32" },
+      { rel: "stylesheet", href: "/css/style.css?v=33" },
     ],
   }),
   component: Index,
@@ -34,7 +34,7 @@ function Index() {
         () =>
           new Promise<void>((resolve, reject) => {
             const s = document.createElement("script");
-            s.src = `/js/${name}.js?v=30`;
+            s.src = `/js/${name}.js?v=33`;
             s.onload = () => resolve();
             s.onerror = () => reject(new Error(`Failed to load ${name}.js`));
             document.body.appendChild(s);

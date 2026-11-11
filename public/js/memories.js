@@ -10,15 +10,15 @@ window.MEMORIES = {
     heading: "صورنا",
     hint: "اضغطي على أي صورة تكبر",
     items: [
-      { src: "", caption: "صورة رقم 1 من ذكرياتنا", date: "" },
-      { src: "", caption: "صورة رقم 2 من ذكرياتنا", date: "" },
-      { src: "", caption: "صورة رقم 3 من ذكرياتنا", date: "" },
-      { src: "", caption: "صورة رقم 4 من ذكرياتنا", date: "" },
-      { src: "", caption: "صورة رقم 5 من ذكرياتنا", date: "" },
-      { src: "", caption: "صورة رقم 6 من ذكرياتنا", date: "" },
-      { src: "", caption: "صورة رقم 7 من ذكرياتنا", date: "" },
-      { src: "", caption: "صورة رقم 8 من ذكرياتنا", date: "" },
-      { src: "", caption: "صورة رقم 9 من ذكرياتنا", date: "" }
+      { src: "/__l5e/assets-v1/0d01bab7-5a94-4918-8a44-8fad55a020a1/memory-1.jpg", caption: "بحبك جدًا ❤", date: "" },
+      { src: "/__l5e/assets-v1/ab159d70-0cf3-4db6-a363-5c33a2448686/memory-2.jpg", caption: "دايمًا بشوفك أحسن حاجة في حياتي", date: "" },
+      { src: "/__l5e/assets-v1/30de4600-f3f2-4c29-a1a9-c40f841843f7/memory-3.jpg", caption: "إنتِ اللي محلّياها والله", date: "" },
+      { src: "/__l5e/assets-v1/7dc6ebf3-d0e5-4f7d-a4d4-38cbceb4d9b8/memory-4.jpg", caption: "أنا بحبك", date: "" },
+      { src: "/__l5e/assets-v1/f8119197-e558-4541-9dac-d884a463542f/memory-5.jpg", caption: "ربنا يخليكي حلالي", date: "" },
+      { src: "/__l5e/assets-v1/2022860e-06c7-4095-b151-254cdd2afa9a/memory-6.jpg", caption: "عمومًا… بحبك", date: "" },
+      { src: "/__l5e/assets-v1/58e1683e-4478-4628-8fd2-24a1f93931e2/memory-7.jpg", caption: "بحبك جدًا ❤", date: "" },
+      { src: "/__l5e/assets-v1/3a511df7-4b05-4ee0-8e19-ea401968e954/memory-8.jpg", caption: "أحسن حاجة في حياتي", date: "" },
+      { src: "/__l5e/assets-v1/59017483-4fcc-4505-ba3f-923d3d98e61d/memory-9.jpg", caption: "ربنا يخليكي ليا", date: "" }
     ]
   },
 

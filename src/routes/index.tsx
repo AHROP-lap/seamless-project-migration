@@ -16,7 +16,7 @@ export const Route = createFileRoute("/")({
     ],
     links: [
       { rel: "stylesheet", href: "/css/fonts.css?v=1" },
-      { rel: "stylesheet", href: "/css/style.css?v=30" },
+      { rel: "stylesheet", href: "/css/style.css?v=31" },
     ],
   }),
   component: Index,

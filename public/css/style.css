@@ -1188,7 +1188,7 @@ input { font-family: inherit; }
 .photo-card:hover .photo-frame img { transform: scale(1.06); }
 .photo-frame .ph-placeholder {
   width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center;
-  background: repeating-linear-gradient(45deg, rgba(242,147,171,.06) 0 10px, transparent 10px 20px);
+  background: repeating-linear-gradient(45deg, rgba(242,147,171,.05) 0 2px, transparent 2px 14px);
   border: 2px dashed rgba(239,125,153,.35); border-radius: 6px;
 }
 .counter > * { box-shadow: 0 0 30px rgba(242,147,171,.12); }

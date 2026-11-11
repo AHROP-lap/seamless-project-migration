@@ -357,11 +357,11 @@ input { font-family: inherit; }
   font-size: clamp(2.4rem, 8vw, 4rem);
   color: var(--cream);
   text-shadow: 0 0 40px rgba(242,147,171,.35);
-  opacity: 0; transform: translateY(20px);
+  opacity: 0; transform: translate(-50%, calc(-50% + 20px));
   transition: opacity 1s ease, transform 1s ease;
   margin-bottom: 14px;
 }
-#introName.show { opacity: 1; transform: none; }
+#introName.show { opacity: 1; transform: translate(-50%, -50%); }
 
 #introTyped {
   min-height: 3.2em;

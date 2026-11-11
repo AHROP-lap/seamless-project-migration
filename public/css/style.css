@@ -1165,3 +1165,32 @@ input { font-family: inherit; }
   .reveal, .tl-item.tl-reveal { opacity: 1; transform: none; }
   #starfield, #gateHeart, #introCanvas { display: none; }
 }
+
+/* ═══════════ ✨ لمسات تجميل إضافية ═══════════ */
+.section-head h3 {
+  background: linear-gradient(120deg, var(--cream) 0%, var(--rose-soft) 45%, var(--rose) 100%);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+  text-shadow: none; filter: drop-shadow(0 4px 18px rgba(242,147,171,.18));
+}
+.section-kicker { letter-spacing: .12em; }
+.section-kicker::before, .section-kicker::after { content: "✦"; color: var(--rose); opacity: .7; margin: 0 .6em; font-size: .75em; }
+.hero-title { text-shadow: 0 0 40px rgba(242,147,171,.35), 0 0 90px rgba(211,37,60,.2); }
+.thing-card {
+  background: linear-gradient(145deg, rgba(255,255,255,.06), rgba(255,255,255,.015));
+  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.08), var(--shadow-soft);
+}
+.thing-card:hover { box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 16px 40px rgba(242,147,171,.18); }
+.photo-card { transition: transform .5s cubic-bezier(.2,.8,.2,1), box-shadow .5s; }
+.photo-card:hover { box-shadow: 0 28px 70px rgba(0,0,0,.55), 0 0 0 1px rgba(242,147,171,.35), 0 0 40px rgba(242,147,171,.25); }
+.photo-frame { position: relative; overflow: hidden; }
+.photo-frame img { transition: transform 1.2s ease, filter .6s; filter: saturate(1.05) contrast(1.03); }
+.photo-card:hover .photo-frame img { transform: scale(1.06); }
+.photo-frame .ph-placeholder {
+  width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center;
+  background: repeating-linear-gradient(45deg, rgba(242,147,171,.05) 0 2px, transparent 2px 14px);
+  border: 2px dashed rgba(239,125,153,.35); border-radius: 6px;
+}
+.counter > * { box-shadow: 0 0 30px rgba(242,147,171,.12); }
+::selection { background: var(--rose); color: var(--night); }
+@media (prefers-reduced-motion: reduce) { .photo-frame img { transition: none; } }

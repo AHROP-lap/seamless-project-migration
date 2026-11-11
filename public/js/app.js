@@ -473,7 +473,7 @@
       card.innerHTML =
         '<div class="photo-frame">' +
         (hasImg ? '<img loading="lazy" src="' + esc(p.src) + '" alt="' + esc(p.caption || "") + '">'
-                : '<div class="ph-placeholder"><span class="big">📷</span>حطي الصورة هنا<br><small>في assets/images</small></div>') +
+                : '<div class="ph-placeholder"><span class="big">📷</span>صورة جاية قريب ❤</div>') +
         "</div>" +
         '<figcaption><div class="photo-caption">' + esc(p.caption || "") + '</div><div class="photo-date">' + esc(p.date || "") + "</div></figcaption>";
       if (hasImg) {

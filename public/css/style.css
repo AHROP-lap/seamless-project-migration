@@ -1194,3 +1194,10 @@ input { font-family: inherit; }
 .counter > * { box-shadow: 0 0 30px rgba(242,147,171,.12); }
 ::selection { background: var(--rose); color: var(--night); }
 @media (prefers-reduced-motion: reduce) { .photo-frame img { transition: none; } }
+.closing-note {
+  text-align: center; font-family: var(--font-hand); font-size: clamp(1.3rem, 3.2vw, 2rem);
+  line-height: 1.8; padding: 60px 24px 30px; max-width: 760px; margin: 0 auto;
+  background: linear-gradient(120deg, var(--cream), var(--rose-soft) 50%, var(--rose));
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+  filter: drop-shadow(0 0 18px rgba(242,147,171,.3));
+}
